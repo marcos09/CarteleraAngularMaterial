@@ -2,18 +2,39 @@ md-grid-tile {
   background: lightblue;
 }
 
-.example-icon {
-  padding: 0 14px;
+.inicio-secciones{
+	text-align:center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.example-spacer {
-  flex: 1 1 auto;
-}
-
-.example-form {
-  width: 500px;
+.inicio-admin{
+	text-align:center;
+	padding-top: 30px;
+	background-color: #E8E8E8;
+	padding-bottom: 55px;
+	padding-left: 30px;
 }
 
 .example-full-width {
   width: 100%;
+}
+
+.example-card {
+  width: 300px;
+}
+
+.example-header-image {
+  background-image: url('../assets/tere.jpg');
+  background-size: cover;
+}
+
+.example-container {
+  width: 500px;
+}
+
+.example-button-row {
+  text-align: right;
+  padding-top: 10px;
+
 }

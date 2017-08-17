@@ -10,15 +10,20 @@ import {MdIconModule} from '@angular/material';
 import {MdMenuModule} from '@angular/material';
 import {MdButtonModule} from '@angular/material';
 import {MdInputModule} from '@angular/material';
+import {MdCardModule} from '@angular/material';
 
 import {Component} from '@angular/core';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, MdSliderModule, MdGridListModule, MdToolbarModule, MdIconModule, MdButtonModule, MdMenuModule, MdInputModule
+    BrowserModule, BrowserAnimationsModule, MdSliderModule, MdGridListModule, MdToolbarModule, MdIconModule, MdButtonModule, MdMenuModule, MdInputModule, MdCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -44,3 +49,14 @@ export class MenuIconsExample {}
   selector: 'input-prefix-suffix-example'
 })
 export class InputPrefixSuffixExample { }
+
+
+@Component({
+  selector: 'card-fancy-example'
+})
+export class CardFancyExample {}
+
+@Component({
+  selector: 'button-types-example'
+})
+export class ButtonTypesExample {}

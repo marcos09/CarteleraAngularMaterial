@@ -4,6 +4,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import 'hammerjs';
 import { AppComponent } from './app.component';
 import {MdSliderModule} from '@angular/material';
+import {MdToolbarModule} from '@angular/material';
+import {MdIconModule} from '@angular/material';
 
 
 @NgModule({
@@ -11,7 +13,7 @@ import {MdSliderModule} from '@angular/material';
     AppComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, MdSliderModule
+    BrowserModule, BrowserAnimationsModule, MdSliderModule,MdToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

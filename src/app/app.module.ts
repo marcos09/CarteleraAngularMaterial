@@ -11,19 +11,25 @@ import {MdMenuModule} from '@angular/material';
 import {MdButtonModule} from '@angular/material';
 import {MdInputModule} from '@angular/material';
 import {MdCardModule} from '@angular/material';
+import {MdSidenavModule} from '@angular/material';
+import { FlexLayoutModule } from "@angular/flex-layout";
+
 
 import {Component} from '@angular/core';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    SidenavComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, MdSliderModule, MdGridListModule, MdToolbarModule, MdIconModule, MdButtonModule, MdMenuModule, MdInputModule, MdCardModule
+    BrowserModule, BrowserAnimationsModule, MdSliderModule, MdGridListModule, MdToolbarModule, MdIconModule, MdButtonModule, MdMenuModule, MdInputModule, MdCardModule, MdSidenavModule, 
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
